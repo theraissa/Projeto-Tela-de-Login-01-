@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*FLEX CONTAINER*/
+body {
+    background-image: url("imagens/fundo.jpg"); /*Imagem de fundo*/
+    background-attachment: fixed; /* imagem de fundo não se move quando o usuário rola a página.*/
+    background-size: cover; /*A imagem se ajusta automaticamente*/
+    
+    font-family: "Nunito", sans-serif;
+    color: #404040;
+    display: flex;
+    /*viewport height*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*TITULO*/
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/*FORMULARIO - FLEX CONTAINER*/
+form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*INPUT*/
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+/*BOTÃO*/
+button {
+    padding: 10px;
+    /*alinhamento dele mesmo*/
+    align-self: center;
+    width: 130px;
+    border-radius: 25px;
+    background-image: linear-gradient(#161D6F, #0B2F9F);
+    border: solid 1px #161D6F;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    /*FONTE MAISCULA*/
+    text-transform: uppercase;
+}
+
+/*ANCORA - CLIQUE AQUI*/
+a {
+    color: #0B2F9F;
+}
+
+a:hover {
+    color: #161D6F;
+}
+
+/*CLASSES*/
+.barra-horizontal {
+    background-color: #0B2F9F;
+    border-radius: 2px;
+    height: 5px;
+    width: 210px;
+}
+
+/*FLEX CONTAINER*/
+.campo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+/*FLEX CONTAINER*/
+.lembrar-me {
+    display: flex;
+    gap: 5px;
+
+} 
